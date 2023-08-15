@@ -10,6 +10,7 @@ public class program_008 {
 	   Thread.sleep(2000);
 	   String address= driver.getWindowHandle();
 	   System.out.println(address);
+	   Thread.sleep(1000);
 	   driver.close();
   }
 }
