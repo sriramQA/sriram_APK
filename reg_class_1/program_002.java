@@ -8,7 +8,6 @@ public class program_002 {
 		driver .get("https://www.lenskart.com/");
 		Thread.sleep(100);
 		String Title= driver.getTitle();
-		System.out.print(Title);
 		driver.close();
 	}
 }
